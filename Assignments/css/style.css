@@ -1,9 +1,10 @@
     body {
 margin: 0 10%;
-font-family: sans-serif;
+font-family: Archivo, sans-serif; 
 }
 h1 {
 font-size: 2rem;
+font-family: Bitcount Grid Double, sans-serif;
 }
 h2 {
 font-size: 1.5rem;
@@ -23,3 +24,5 @@ header{
     border-radius: 50%;
     border: 5px solid black;
 }
+
+
