@@ -1,7 +1,7 @@
     body {
 margin: 0 10%;
 font-family: Archivo, sans-serif; 
-background-image: url("../Images/bg.jpg")
+background-image: url("bg.jpg");
 }
 h1 {
 font-size: 2rem;
