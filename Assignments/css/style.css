@@ -1,5 +1,10 @@
-    body {
-margin: 0 10%;
+*{
+  font-family: Archivo, sans-serif; 
+  box-sizing: border-box;  
+}
+
+body {
+margin: 0;
 font-family: Archivo, sans-serif; 
 background-image: url("../Images/moroccan-flower.png");
 }
@@ -27,6 +32,28 @@ header{
 }
 
 
+/********* Layout ********/
+
 .container{
     background-color: white;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(12,1fr);
+    margin: 0 auto;
+    width: min(95%, 75rem);
+}
+
+.container > *{
+    grid-column: span 12;
+}
+
+/*** Desktop Layout ***/
+@media screen and (min-width:40rem) {
+.col-span-8{
+    grid-column: span 8;
+}
+.col-span-4{
+    grid-column: span 4;
+}
+    
 }
