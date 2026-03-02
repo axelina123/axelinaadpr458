@@ -32,6 +32,16 @@ header{
 }
 
 
+a:link, a:visited{
+    color:gray;
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+    text-decoration: none;
+}
+
+
 /********* Layout ********/
 
 .container{
@@ -56,4 +66,22 @@ header{
     grid-column: span 4;
 }
     
+}
+/********* Components ********/
+
+.button:link, .button:visited{
+    color:white;
+    background-color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 .125rem .5rem rgba(0,0,0,.20);
+    display: inline-block;
+    margin: 0 .25rem .25rem 0;
+    transition: background-color 0.4s ease;
+}
+
+.button:hover{
+    background-color: gray;
 }
