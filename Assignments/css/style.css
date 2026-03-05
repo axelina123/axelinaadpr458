@@ -33,11 +33,11 @@ header{
 
 
 a:link, a:visited{
-    color:gray;
+    color:black;
     text-decoration: none;
 }
 a:hover{
-    color:black;
+    color:gray;
     text-decoration: none;
 }
 
@@ -57,6 +57,12 @@ a:hover{
     grid-column: span 12;
 }
 
+.image{
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
 /*** Desktop Layout ***/
 @media screen and (min-width:40rem) {
 .col-span-8{
@@ -64,14 +70,54 @@ a:hover{
 }
 .col-span-4{
     grid-column: span 4;
+}   
 }
-    
+/********* Navigation Using Flexbox********/
+nav {
+    background-color: #EDB5BE;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
 }
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav li{
+    margin: 0 0.5rem
+}
+
+nav a:link, nav a:visited{
+    color: white;
+    text-decoration: none;
+    font-size: 1.125rem;
+    padding: 1rem;
+    display: block;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in-out 250ms;
+
+}
+
+
+
+
 /********* Components ********/
 
 .button:link, .button:visited{
     color:white;
-    background-color: black;
+    background-color:#EDB5BE;
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
     text-align: center;
@@ -84,7 +130,7 @@ a:hover{
 }
 
 .button:hover{
-    background-color: gray;
+    background-color: black;
     transform: scale(1.03);
     transition: background-color 0.3s ease;
 }
