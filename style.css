@@ -9,14 +9,32 @@
 }
 
 
-.background{
-    background-image: url("images/att._FLv_wCKzjMrdtBlv8PflG0hFq0Q58iHDmVi_ALVVjc.JPG");
-    background-size: cover;
-    background-position: center;
-    p{
+.background {
+  position: relative;
+  height: 100vh;
+
+  background-image: url("images/att._FLv_wCKzjMrdtBlv8PflG0hFq0Q58iHDmVi_ALVVjc.JPG");
+  background-size: cover;
+  background-position: center;
+
+  p{
         color: white;
         font-size: 25px;
     }
+}
+
+.background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+.navbar,
+.font-side {
+  position: relative;
+  z-index: 2;
 }
 
 
