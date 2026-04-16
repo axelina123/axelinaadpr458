@@ -65,6 +65,14 @@
     margin-right: 20px;
 }
 
+a:link, a:visited {
+    color: white;
+    font-family: koulen;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
 h1{
     color: white;
     font-family: koulen;
@@ -176,7 +184,7 @@ p{
 }
 
 .about-me-text{
-    padding: 120px;
+    padding: 100px;
 }
 
 .about-me-text2{
@@ -184,7 +192,7 @@ p{
 }
 
 .about-me-image{
-    padding: 100px;
+    margin-top: 0%;
 }
 
 
@@ -364,3 +372,164 @@ ul{
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
+
+
+/****** About *******/
+
+.background1 {
+  position: relative;
+  height: 100vh;
+
+  background-image: url("Project 2/Images/IMG_0939.jpg");
+  background-size: cover;
+  background-position: center;
+
+  p{
+        color: white;
+        font-size: 23px;
+    }
+}
+
+.background1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+/****** Coaching *******/
+.background2 {
+  position: relative;
+  height: 100vh;
+
+  background-image: url("images/DSC_4992.jpg");
+  background-size: cover;
+  background-position: center;
+
+  p{
+        color: white;
+        font-size: 23px;
+    }
+}
+
+.background2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+/****** Collaborations *******/
+.background3 {
+  position: relative;
+  height: 100vh;
+
+  background-image: url("images/IMG_2259.jpg");
+  background-size: cover;
+  background-position: center;
+
+  p{
+        color: white;
+        font-size: 23px;
+    }
+}
+
+.background3::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+.previous{
+ background-color: #FFFBDE;
+ text-align: center;
+ margin-top: 0px;
+ h3{
+    margin-block-start: 0px;
+    padding-top: 10px;
+ }
+}
+
+.services-text{
+    padding-right: 250px;
+    padding-left: 220px;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.clients{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+   padding-top: 20px;
+   padding-bottom: 50px;
+}
+
+
+/****** Contact *******/
+.background4 {
+  position: relative;
+  height: 100vh;
+
+  background-image: url("images/att._FLv_wCKzjMrdtBlv8PflG0hFq0Q58iHDmVi_ALVVjc.JPG");
+  background-size: cover;
+  background-position: center;
+
+  p{
+        color: white;
+        font-size: 23px;
+    }
+}
+
+.background4::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 1;
+}
+
+
+.navbar,
+.font-side4 {
+  position: relative;
+  z-index: 2;
+} 
+
+.font-side4{
+text-align: center;
+margin-top: 200px;
+}
+
+/****** Guest Speaker *******/
+.background5 {
+  position: relative;
+  height: 100vh;
+
+  background-image: url("images/guest-speaker.jpg");
+  background-size: cover;
+  background-position: center;
+
+  p{
+        color: white;
+        font-size: 23px;
+    }
+}
+
+.background5::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
