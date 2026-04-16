@@ -115,9 +115,9 @@ h5{
 h6{
     color: white;
     font-family: koulen;
-    font-size: 23px;
-    margin-block-start: 8px;
-    margin-block-end: 8px;
+    font-size: 20px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
  h7{
@@ -129,6 +129,7 @@ h6{
 p{
     font-family: lato;
         margin-block-start: 0px;
+        margin-block-end: 6px;
         font-size: 18px;
 }
 
@@ -340,23 +341,42 @@ p{
 .footer{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     background-color: #0B2545;
    gap: 22%;
-   padding-left: 50px;
+   padding-left: 70px;
+   padding-right: 70px;
    padding-top: 50px;
   
 
     p{
         color: white;
-        font-size: 20px;
+        font-size: 16px;
+        margin-inline-start: 5px;
+        margin-inline-end: 5px;
+        margin-left: 0px;
+    }
+
+
+
+    a:link{
+        font-family: lato;
+        font-size: 14px;
+        
     }
 }
 
 ul{
  list-style-type: none;
      padding-inline-start: 0px;
+     margin-top: 0px;
 
 }
+.footer a:hover {
+  opacity: 0.5;
+  transition: 0.2s ease-in-out;
+}
+
 
 .socials
 {
@@ -371,6 +391,10 @@ ul{
     color: white;
     padding-top: 20px;
     padding-bottom: 10px;
+
+    p{
+        font-size: 15px;
+    }
 }
 
 
