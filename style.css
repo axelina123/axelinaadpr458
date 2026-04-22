@@ -44,15 +44,17 @@ font-size: 23px;
   justify-content: space-between;
 }
 
+.navbar img{
+    width: 120px;
+ margin-left: 20px;
+    margin-top: 20px;
+}
+
 .nav li:hover {
   opacity: 0.7;
   transition: 0.3s ease-in-out;
 }
 
-.logo{
-    margin-left: 20px;
-    margin-top: 20px;
-}
 
 .icons{
     display: flex;
@@ -161,7 +163,7 @@ p{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .results img {
-    width: 100px;
+    width: 80px;
 }
 
 .results{
@@ -205,6 +207,8 @@ p{
    background-color: #FFFBDE;
    padding-bottom: 50px;
    place-items: center;
+   padding-left: 150px;
+    padding-right: 150px;
 
 }
 .inspire-section p {
@@ -538,7 +542,7 @@ ul{
 
 
 .arch_contact_us_duplicate * {
-  font-family: Nunito, sans-serif;
+  font-family: koulen;
 }
 
 .arch_contact_us_duplicate .icon-block svg {
@@ -689,18 +693,31 @@ ul{
   margin-left: 0px;
 }
 
-.arch_contact_us_duplicate .social-media-icon-container {
-  display: flex;
-  max-width: 400px;
-  justify-content: space-evenly;
-}
 
 .arch_contact_us_duplicate .input-element {
   background-color: #f3f2cf;
 }
+.button {
+  background: #C4A055;
+  font-size: 17px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+    font-family: lato;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .20);
+    display: inline-block;
+    margin: 0 .5rem .5rem 0;
+    transition: background-color 0.3s ease;
+}
 
-.arch_contact_us_duplicate .icon-block.social-icon {
-  fill: #b0ab4d;
+.button:hover{
+     transition: 0.4s ease;
+     background-color: #FFFBDE;
+     color: black;
 }
 
 @media (max-width: 1024px) {
@@ -798,6 +815,7 @@ ul{
 
   .arch_contact_us_duplicate .button {
     width: 100%;
+   
   }
 
   .arch_contact_us_duplicate .button {
@@ -1063,7 +1081,9 @@ body {
     .nav{
         gap: 30px;
     }
-
+.navbar img{
+    width: 100px;
+}
 
     .about-me-text2, 
     .about-me-text {
@@ -1071,20 +1091,41 @@ body {
     }
 
    
-    .result-bar {
-        grid-template-columns: repeat(2, 1fr);
-    }
+   
     
         h2{
         font-size: 55px;
     }
-p{
-    font-size: 17px; 
+
+.inspire-section{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+ .three-cards {
+        height: 500px;
+    }
+
+.end p{
+    font-size: 16px;
+}
+.socials{
+    gap: 20px;
 }
 
 }
 @media (max-width: 600px) {
     
+
+.result-bar {
+    display: column;
+    gap: 10px;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #0B2545;
+    color: #FFFBDE;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
     .about-me-section {
         flex-direction: column;
@@ -1108,11 +1149,40 @@ p{
         width: 100%;
         height: auto;
     }
+     .result-bar {
+        grid-template-columns: repeat(2, 1fr);
 
+    }
+
+    .result-bar h7{
+        font-size: 40px;
+    }
+
+    .result-bar img{
+        width: 50px;
+    }
 
     #sweden {
      flex-direction: column-reverse;
     }
+
+    .inspire-section{
+    padding-left: 20px;
+    padding-right: 20px;
+
+    h4{
+        font-size: 18px;
+    }
+}
+
+.inspire-section img{
+    width: 50%;
+    height: auto;
+}
+
+.quote{
+    gap: 10px;
+}
 
  .three-cards {
         flex-direction: column;
