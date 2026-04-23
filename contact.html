@@ -21,15 +21,19 @@
      <div class="logo">
     <img src="images/aj logo.png" style="width: 120px; height: auto;" alt="logo">
   </div>
-
+<div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
   <ul class="nav">
-     <li><h5> <a href="index.html">HOME</a></h5></li>
-    <li><h5> <a href="About.html">ABOUT</a></h5></li>
-    <li><h5> <a href="coaching.html">COACHING</a></h5></li>
-   <li><h5> <a href="collaborations.html">CLLABORATIONS</a></h5></li>
-    <LI><h5> <a href="guestspeaker.html"> GUEST SPEAKER</h5></LI>
-    <LI><h5> <a href="contact.html">CONTACT</a></h5></LI>
-  </ul>
+  <li><h5><a href="index.html">HOME</a></h5></li>
+  <li><h5><a href="about.html">ABOUT</a></h5></li>
+  <li><h5><a href="coaching.html">COACHING</a></h5></li>
+  <li><h5><a href="collaborations.html">COLLABORATIONS</a></h5></li>
+  <li><h5><a href="guestspeaker.html">GUEST SPEAKER</a></h5></li>
+  <li><h5><a href="contact.html">CONTACT</a></h5></li>
+</ul>
 
   <div class="icons">
     <a href="https://www.instagram.com/axelina.johansson" target="_blank"><img src="images/ig.png" alt="" style="width: 30px; height: 30px;"></a>
@@ -42,7 +46,6 @@
 
 
     <div class="font-side4">
-</form>
 
     <form action="https://formspree.io/f/xkokpoae" method="POST" class="form-wrapper">
 
@@ -128,6 +131,11 @@
 
 
 
-
+<script>
+function toggleMenu() {
+  document.querySelector(".nav").classList.toggle("active");
+  document.querySelector(".font-side4").classList.toggle("hide");
+}
+</script>
 </body>
 </html>

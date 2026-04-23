@@ -73,17 +73,20 @@ font-size: 23px;
     gap: 0px;
     padding: 0px 0;
     display: none;
-    z-index: 1000;
   }
 
   .nav.active {
     display: flex;
   }
-
+.navbar {
+  position: relative;
+  z-index: 9999;
+}
   
   .nav.active h5 {
     margin-block-end: 15px;
     margin-block-start: 15px;
+  
   }
 
   .icons {
@@ -92,6 +95,17 @@ font-size: 23px;
 .font-side.hide {
   display: none;
 }
+.font-side4 {
+  position: relative;
+  z-index: 1;
+}
+.font-side4.hide {
+  display: none;
+}
+
+ .arch_contact_us_duplicate .responsive-container-block.container.hide{
+    
+ } 
 
 }
 
@@ -130,7 +144,7 @@ a:link, a:visited {
     color: white;
     font-family: koulen;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 
