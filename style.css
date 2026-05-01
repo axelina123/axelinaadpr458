@@ -1573,10 +1573,18 @@ margin-top: 300px;
 margin-left: 30px;
 }
 
+.background5 .font-side{
+margin-top: 300px;
+margin-left: 30px;
+}
+
 .background3 .font-side h1{
 font-size: 50px;
 }
 
+.background5 .font-side h1{
+font-size: 50px;
+}
 .font-side p{
 font-size: 18px;
 }
