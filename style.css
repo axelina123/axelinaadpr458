@@ -433,6 +433,7 @@ p{
 }
 
 .card img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1486,7 +1487,7 @@ a:link, a:visited {
 
 
     .footer {
-        flex-direction: column;
+       flex-direction: column-reverse;
         align-items: center;
         text-align: center;
         gap: 1rem;
@@ -1608,8 +1609,14 @@ font-size: 18px;
      margin-top: 20px;
 }
 
+.footer a:link {
+    font-size: 18px;
 }
 
-
-
-
+.footer p{
+    font-size: 18px;
+}
+.footer h6{
+    font-size: 28px;
+}
+}
