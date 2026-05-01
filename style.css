@@ -1564,13 +1564,17 @@ margin-left: 30px;
 font-size: 80px;
 }
 
-.background3 .background2.font-side{
-margin-top: 350px;
+.background3 .font-side{
+margin-top: 300px;
+margin-left: 30px;
+}
+.background2 .font-side{
+margin-top: 300px;
 margin-left: 30px;
 }
 
 .background3 .font-side h1{
-font-size: 60px;
+font-size: 50px;
 }
 
 .font-side p{
