@@ -1558,13 +1558,14 @@ p{
 
 .font-side{
 margin-top: 400px;
+margin-left: 30px;
 }
 .font-side h1{
 font-size: 80px;
 }
 
 .font-side p{
-display: none;
+font-size: 18px;
 }
 }
 
