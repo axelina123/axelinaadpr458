@@ -1551,7 +1551,7 @@ p{
 .background1 {
   position: relative;
  background-position: center;
-  background-image: url("Project 2/Images/IMG_0939.jpg");
+  background-image: url("images/IMG_0939.jpg");
   background-size: cover;
 
 }
@@ -1561,7 +1561,7 @@ margin-top: 400px;
 margin-left: 50px;
 }
 .font-side p{
-font-size: 16px;
+font-size: 18px;
 }
 }
 
