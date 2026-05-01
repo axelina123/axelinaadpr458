@@ -1550,10 +1550,18 @@ p{
 
 .background1 {
   position: relative;
- background-position: right;
+ background-position: center;
   background-image: url("Project 2/Images/IMG_0939.jpg");
   background-size: cover;
 
+}
+
+.font-side{
+margin-top: 400px;
+margin-left: 50px;
+}
+.font-side p{
+font-size: 16px;
 }
 }
 
