@@ -1614,7 +1614,8 @@ font-size: 18px;
 }
 
 .footer p{
-    font-size: 18px;
+    font-size: 20px;
+        margin-block-end: 15px;
 }
 .footer h6{
     font-size: 28px;
