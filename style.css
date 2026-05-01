@@ -1564,6 +1564,15 @@ margin-left: 30px;
 font-size: 80px;
 }
 
+.background3 .background2.font-side{
+margin-top: 350px;
+margin-left: 30px;
+}
+
+.background3 .font-side h1{
+font-size: 60px;
+}
+
 .font-side p{
 font-size: 18px;
 }
