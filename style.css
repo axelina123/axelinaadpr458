@@ -1558,10 +1558,13 @@ p{
 
 .font-side{
 margin-top: 400px;
-margin-left: 50px;
 }
+.font-side h1{
+font-size: 80px;
+}
+
 .font-side p{
-font-size: 18px;
+display: none;
 }
 }
 
