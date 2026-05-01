@@ -1625,5 +1625,10 @@ font-size: 18px;
         gap: 15px;
         padding-top: 40px;
 }
-
+.footer img{
+  margin-top: 10px;
+}
+.end{
+    padding-top: 10px;
+}
 }
