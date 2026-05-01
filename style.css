@@ -500,7 +500,7 @@ display: none;
      background-color: #FFFBDE;
      color: black;
 }
-
+url(http://127.0.0.1:5500/collaborations.html)
 
 .card:hover img {
   transform: scale(1.05);
@@ -508,7 +508,9 @@ display: none;
 }
 
 
-
+#threebutton{
+    display: none;
+}
 
 .footer{
     display: flex;
@@ -1557,7 +1559,6 @@ p{
 }
 
 .font-side{
-margin-top: 400px;
 margin-left: 30px;
 }
 .font-side h1{
@@ -1589,9 +1590,26 @@ font-size: 50px;
 font-size: 18px;
 }
 
+  .content p {
+    opacity: 1;
+    transform: translateY(0);
+    font-size: 30px;
+    max-width: 350px;
+    margin-top: 10px;
+  }
+
+  .card:hover h3 {
+    display: block; /* prevent it from disappearing */
+  }
+
+#threebutton{
+    display:flex;
+     font-size: 30px;
+     margin-top: 20px;
+}
+
 }
 
 
 
 
- 
