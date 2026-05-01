@@ -1593,8 +1593,8 @@ font-size: 18px;
   .content p {
     opacity: 1;
     transform: translateY(0);
-    font-size: 30px;
-    max-width: 350px;
+    font-size: 22px;
+    max-width: 450px;
     margin-top: 10px;
   }
 
