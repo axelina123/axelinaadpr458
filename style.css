@@ -360,7 +360,7 @@ p{
 
 .button:link, .button:visited {
     color: white; 
-    font-size: 18px;
+    font-size: 22px;
     font-family: lato;
     background-color: #C4A055;
     padding: 0.5rem 1rem;
@@ -1588,6 +1588,7 @@ font-size: 50px;
 .font-side p{
 font-size: 18px;
 }
+
 }
 
 
