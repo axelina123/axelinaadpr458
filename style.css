@@ -82,6 +82,7 @@ background-image: url(images/about-me.jpg);
 
 
 .background {
+  position: relative;
   background-image: url("images/att._FLv_wCKzjMrdtBlv8PflG0hFq0Q58iHDmVi_ALVVjc.JPG");
   background-size: cover;
   background-position: center;
@@ -572,9 +573,9 @@ ul{
 /****** About *******/
 
 .background1 {
- background-position: center;
+  position: relative;
   height: 100vh;
-
+ background-position: center;
   background-image: url("Project 2/Images/IMG_0939.jpg");
   background-size: cover;
  
@@ -601,7 +602,7 @@ ul{
 /****** Coaching *******/
 .background2 {
   height: 100vh;
-
+position: relative;
   background-image: url("images/DSC_4992.jpg");
   background-size: cover;
 
@@ -622,7 +623,7 @@ ul{
 /****** Collaborations *******/
 .background3 {
   height: 100vh;
-
+position: relative;
   background-image: url("images/IMG_2259.jpg");
   background-size: cover;
   background-position: center;
@@ -1319,6 +1320,15 @@ a:link, a:visited {
 .panelcontent{
     height: 630px;
 }
+
+.background1 {
+  position: relative;
+  height: 100%;
+ background-position: center;
+  background-image: url("Project 2/Images/IMG_0939.jpg");
+  background-size: cover;
+
+}
 }
 
 
@@ -1376,7 +1386,8 @@ a:link, a:visited {
         display: none;
     }
     .panelcontent{
-    height: 400px;
+    height: 500px;
+    padding: 0 5% 0 10%;
 }
 .panelcontent p{
     font-size: 18px;
@@ -1523,6 +1534,11 @@ p{
     
     
 }
+.panelcontent{
+  padding: 0 2% 0 5%;
+  height: 400px;
+}
+
 .panelcontent p{
     font-size: 18px;
     
@@ -1530,6 +1546,14 @@ p{
 
 .work{
     grid-template-columns: repeat(2, 1fr);
+}
+
+.background1 {
+  position: relative;
+ background-position: right;
+  background-image: url("Project 2/Images/IMG_0939.jpg");
+  background-size: cover;
+
 }
 }
 
